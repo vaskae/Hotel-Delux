@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+	
 }
 
 /*
@@ -159,14 +160,15 @@ footer{
 }
 
 #package_boooking {
-    background:white;
+    background:url(../img/package_bg.jpg) repeat;
+   margin-top:-70px;
     min-height: 498px;
     border-bottom:2px solid #CCCCCC; 
     overflow: hidden;
 }
 
 #room_types {
-    background:#E8E6DD;
+   
     min-height: 795px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -498,7 +500,8 @@ margin: 10px 10px 10px 10px;
     
 }
 .latest_news {
-   width: 200px; 
+   width: 200px;
+    margin-left:15px;
     
 }
 .join_dleux {
