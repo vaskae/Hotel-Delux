@@ -115,22 +115,31 @@ textarea {
 }
 header{
     background:#272B31;
-    min-height: 100px;
-    overflow: hidden;
+    min-height: 80px;
+    overflow:hidden;
     margin-top: 10px;
     
     
 }
+.wrapper{
+   width:80%;
+
+
+margin:0 auto;
+}
 #header{
+  
     
-    width: 1355px;
+    width: 100%;
 margin: 0 auto;
+
+
 }
 footer{
     background:#333333;
-    min-height:460px;
+    
     overflow: hidden;
-     width: 100%;
+     
     border: 1px solid;
    font-family:DroidSans;
     
@@ -141,7 +150,8 @@ footer{
     background: #01B7FF;
     min-height: 460px;
     position: relative;
-    margin-top: -70px;
+	top:-70px;
+    
 }
 
 #select_room_type {
@@ -172,9 +182,8 @@ footer{
 }
 
 .logo {
-    width: 404px;
-    height: 26px;
-    margin-left: 155px; 
+   
+  
     padding-top: 32px;
 }
 
@@ -187,8 +196,10 @@ footer{
 }
 
 .menubar {
-    width: 728px;
-    margin-right: 50px;
+    width: 670px;
+	
+   
+	
     
     
     
@@ -210,16 +221,17 @@ footer{
     text-transform: uppercase;
     color:#ffffff;
     font-family: Droid+Sans;
-    font-size: 13pt;
-    padding: 35px  11px ;
+    font-size: 12pt;
+    padding: 32px  11px ;
     display: block;
+	font-weight:bold;
     border-top: 4px solid #1e2329; 
     
 }
 
 .menubar ul li a:hover{
     background: #1e2329;
-     padding: 35px  11px ;
+     padding: 32px  11px ;
     border-top: 4px solid #ffd700; 
 }
 .baner_caption {
@@ -228,6 +240,8 @@ footer{
     margin: 0 auto;
     text-align: center;
     margin-top: 70px;
+	padding-top:30px;
+	color:white;
     
 }
 
@@ -236,11 +250,13 @@ footer{
     font-weight: normal;
     font-size: 30pt;
     color: white;
+	
 }
 
 .caption_title {
     font-family:DroidSans;
     font-size: 60pt;
+	line-height:20px;
     font-weight: bold;
     
     color: white;
@@ -255,8 +271,8 @@ footer{
 
 .view_pricing {
     background-color: #2a2e33;
-    width: 1080px;
-    height: 102px;
+    width: 72%;
+    
     margin: 0 auto;
     border-radius: 5px;
     margin-top: 40px;
@@ -264,11 +280,12 @@ footer{
     left: 0;
     right: 0;
     bottom: -11%;
+	padding-bottom:20px;
 }
 
 .form_gurop {
     float: left;
-     margin-left: 20px;
+     
 }
 
 
@@ -277,9 +294,9 @@ footer{
 .form_gurop lable{
    font-family: Quicksand;
     font-weight: 400;
-    font-size: 30pt;
+   
     color: #E4C021;
-    font-size: 18pt;
+    font-size: 18px;
     margin-left: 20px;
 }
 
@@ -287,12 +304,12 @@ footer{
 }
 
 .common_date_style {
-    width: 255px;
+    width: 205px;
     height: 45px;
     border-radius: 5px;
     background: url(../img/calender.png) no-repeat #ffff ;
     background-position: 5%;
-    padding-left: 10%;
+    padding-left: 50px;
     margin-left: 10px;
     cursor:pointer; 
 }
@@ -316,12 +333,13 @@ footer{
         width: 137px;
     height: 47px;
     border-radius: 5px;
-    margin: 35px 1px 0 9px;
+    margin: 25px 1px 0 9px;
     color: black;
     font-weight: bold;
     background: #E4C021;
     border: none;
     cursor:pointer;
+	float:left;
 } 
 
 
@@ -333,14 +351,14 @@ footer{
     
 }
 .package_booking_title p{
-   width: 996px;
+   
 text-align: center;
 margin: 0 auto;
     
     
 }
 .package_slider {
-        width: 1040px;
+        
     margin: 46px auto 0 auto;
     height: 291px;
 }
@@ -367,8 +385,10 @@ margin: 0 auto;
 
 .all_room_type {
    
-    width: 1100px;
+    
     margin: 5px auto;
+	
+	width:960px;
     
 }
 
@@ -436,11 +456,12 @@ margin: 10px 10px 10px 10px;
     
     color: white;
     font-size: 12px;
+	
     
 }
 
 .footer_wrapper{
-    width: 1023px;
+    
     margin: auto;
    
     
@@ -485,7 +506,10 @@ margin: 10px 10px 10px 10px;
     
 }
 
+.member_areia {
+margin-left:15px;
 
+}
 
 
 .member_areia input[type=text],input[type=password]{
@@ -505,6 +529,7 @@ margin: 10px 10px 10px 10px;
 }
 
 .date {
+color:#FFCC00;
 }
 
 .join_dleux {
